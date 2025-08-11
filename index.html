@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+   
+    <header>
+        <nav class="navbar">
+            <div class="logo">My Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="section">
+        <div >
+            <h1>Hello, I'm <span id="name">Anmol Trivedi</span></h1>
+            <p class="hero-text">Aspiring Web Developer | Tech Enthusiast</p>
+            <button onclick="scrollToSection('contact')" class="hire-btn">Hire Me</button>
+        </div>
+        <div class="hero-image">
+            <img src="anmollll (1).jpg" alt="Anmol Trivedi" class="profile-img">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate web developer skilled in creating interactive and responsive websites.
+            I enjoy learning new technologies and building projects that solve real-world problems.
+        </p>
+        <p>
+            Currently working as an Intern at 
+            <a href="https://www.linkedin.com/company/prodigy-infotech/posts/?feedView=all" target="_blank" class="company-link">
+                Prodigy Infotech
+            </a>.
+        </p>
+    </section>
+
+   
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+        </ul>
+    </section>
+
+  
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <h3>Tic Tac Toe Game</h3>
+            <p>Built a fully functional Tic Tac Toe game with JavaScript for move handling, state tracking, and win detection.</p>
+            <a href="https://github.com/maddy-bit/PRODIGY_WD_03" target="_blank" class="btn">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Weather Forecast App</h3>
+            <p>Displays real-time weather data using a weather API, built with HTML, CSS, and JavaScript.</p>
+            <a href="https://github.com/maddy-bit/Weather-forecats" target="_blank" class="btn">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Digital Clock</h3>
+            <p>A live digital clock that updates in real-time, styled with CSS and powered by JavaScript.</p>
+            <a href="https://github.com/maddy-bit/Digital-Clock" target="_blank" class="btn">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>To-Do List App</h3>
+            <p>A task management app with add, edit, and delete functionality, built with JavaScript.</p>
+            <a href="https://github.com/maddy-bit/to_d0_list" target="_blank" class="btn">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Netflix Intro (CSS Only)</h3>
+            <p>Recreated the Netflix intro animation purely with HTML and CSS.</p>
+            <a href="https://github.com/maddy-bit/NETFLIX" target="_blank" class="btn">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Amazon Clone (CSS Only)</h3>
+            <p>A static clone of the Amazon homepage designed with HTML and CSS.</p>
+            <a href="https://github.com/maddy-bit/amazon_project" target="_blank" class="btn">View on GitHub</a>
+        </div>
+
+        <div class="project-card">
+            <h3>Calculator</h3>
+            <p>A functional calculator built with HTML, CSS, and JavaScript.</p>
+            <a href="https://github.com/maddy-bit/Calculators" target="_blank" class="btn">View on GitHub</a>
+        </div>
+
+    </section>
+
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> anmoltrived44@gmail.com</p>
+            <p>
+                <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/anmoltrivedi" target="_blank">LinkedIn Profile</a>
+            </p>
+        </div>
+        <form id="contactForm">
+            <input type="text" id="fullName" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer class="foot">
+        <p>© 2025 Your Name. All Rights Reserved.</p>
+        <div class="footer-links">
+            <a href="https://www.linkedin.com/in/anmoltrivedi" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:anmoltrived44@gmail.com"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
